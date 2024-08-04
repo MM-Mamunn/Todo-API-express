@@ -12,7 +12,7 @@ const viewTasks = async (req, res) => {
 const viewSingleTask = async (req, res) => {
   try {
     const { id } = req.params;
-    const task = await Task.findById(id);
+    const task = await Task.findOne({idd:id});
     res.status(200).json(task);
   } catch (error) {
     res.status(500).json({ message: error.message });
