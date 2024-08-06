@@ -29,7 +29,7 @@ npm i body-parser
 npm i nodemon
 ```
 
-###if your mongodb is connected to  port 
+## if your mongodb is connected to  port 
 ```
 127.0.0.1:27017
 ```
