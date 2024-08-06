@@ -33,7 +33,7 @@ npm i nodemon
 ```
 127.0.0.1:27017
 ```
-then, make sure to make the following changes to the ### index.js file,
+then, make sure to make the following changes to the **index**.js file,
 from
 ```
 ...
