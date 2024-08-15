@@ -6,14 +6,13 @@
 
 Install nodemodule,express,mongoose,cors,body-parser,nodemon via following command.
 
-```
-npm install
-```
 
 ```
 npm install express@4
 ```
-
+```
+npm install
+```
 ```
 npm install mongoose
 ```
