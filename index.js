@@ -20,7 +20,10 @@ app.use('/api/task',taskRoute)
 
 
 
-  await mongoose.connect('mongodb://127.0.0.1:28017/todo-app')
+  await mongoose.connect(
+    // 'mongodb://127.0.0.1:28017/todo-app'
+  'mongodb+srv://c221046:c221046@to-do-api.9jsnh.mongodb.net/?retryWrites=true&w=majority&appName=to-do-api'
+  )
   .then(()=>{
     console.log("connected");
     app.listen(port, () => {
